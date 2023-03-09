@@ -12,7 +12,7 @@ const AllCourses=()=>{
     
     return (
         <div>
-            <h1>All Courses</h1>
+            <h1 className="text-center">All Courses</h1>
 
             {courses.length > 0
                 ?courses.map((item) => <Course course={item}/>)
